@@ -1,0 +1,12 @@
+/*style heading*/
+
+.heading {
+    font-size: 4em;
+    text-align: center;
+}
+
+.logo-img {
+    width: 84px;
+    height: 128px;
+    padding-right: 20px;
+}
