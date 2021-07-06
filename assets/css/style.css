@@ -27,8 +27,15 @@ body {
 
 /*start button*/
 
-.start-button {
+.start {
     text-align: center;
+}
+
+.start-button {
+    background-color: grey;
+    text-decoration: none;
+    border-color: black;
+    height: 30px;
 }
 
 /*heading2*/
@@ -50,7 +57,7 @@ body {
     font-size: 1.5em;
     display: flex;
     justify-content: center;
-    margin-top: 15px;    
+    margin-top: 15px;  
 }
 
 /*games container*/
@@ -60,6 +67,7 @@ body {
     grid-template-columns: repeat(4, auto);
     grid-gap: 15px;
     margin: 50px;
+    margin-top: 10px;
     justify-content: center;
 }
 
