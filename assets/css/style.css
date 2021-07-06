@@ -59,6 +59,9 @@ body {
     background-color: black;
     height: 175px;
     width: 125px;
+    border-color: grey;
+    border-style: solid;
+    border-radius: 15px;
 }
 
 .card-back {
