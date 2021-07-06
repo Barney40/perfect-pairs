@@ -11,7 +11,7 @@ body {
     font-size: 6em;
     text-align: center;
     font-family: Uchen, sans-serif;
-    font-weight: 300;      
+    font-weight: 300;
 }
 
 .logo-img {
@@ -27,10 +27,10 @@ body {
     text-align: center;
     font-family: Uchen, sans-serif;
     font-weight: 250;
-  }
+}
 
 .instructions-button {
-    margin-left: 10px;  
+    margin-left: 10px;
 }
 
 /*time guess container*/
@@ -39,22 +39,27 @@ body {
     font-family: Uchen, sans-serif;
     font-size: 1.5em;
     display: flex;
-    justify-content: center;   
-     
+    justify-content: center;
 }
 
 /*games container*/
 
 .game-container {
     display: grid;
-    grid-template-columns: repeat(4, auto); 
-    grid-gap: 15px;  
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 15px;
     margin: 50px;
-    justify-content: center;      
+    justify-content: center;
 }
 
 .card {
     background-color: black;
     height: 175px;
     width: 125px;
+}
+
+.card-back {
+    color: grey;
+    margin-left: 55px;
+    margin-top: 80px;
 }
