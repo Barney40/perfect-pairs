@@ -8,7 +8,7 @@ body {
 /*heading/logo*/
 
 .heading {
-    font-size: 4em;
+    font-size: 6em;
     text-align: center;
     font-family: Uchen, sans-serif;
     font-weight: 300;      
@@ -31,6 +31,16 @@ body {
 
 .instructions-button {
     margin-left: 10px;  
+}
+
+/*time guess container*/
+
+.time-guess-container {
+    font-family: Uchen, sans-serif;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;   
+     
 }
 
 /*games container*/
