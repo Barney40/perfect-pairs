@@ -76,8 +76,7 @@ body {
     justify-content: center;
 }
 
-.card {
-    background-color: black;
+.card { 
     height: 175px;
     width: 125px;
     border-color: grey;
@@ -89,6 +88,7 @@ body {
     color: grey;
     margin-left: 55px;
     margin-top: 80px;
+    background-color: black;
 }
 
 .card-front-pic {
@@ -100,4 +100,14 @@ body {
 /*align front and back card faces*/
 .card-face {
     position: absolute;
+}
+
+/*style visible class to view front or back of cards*/
+
+card.visible .card-back {
+    transform: rotateY(-180deg);
+}
+
+card.visible .card-front {
+    transform: rotateY(0);
 }
