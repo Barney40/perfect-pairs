@@ -47,7 +47,12 @@ body {
 }
 
 .instructions-button {
-    margin-left: 10px;
+    background-color: grey;
+    text-align: center;
+    text-decoration: none;
+    border-color: black;
+    height: 20px;
+      
 }
 
 /*time guess container*/
@@ -84,4 +89,10 @@ body {
     color: grey;
     margin-left: 55px;
     margin-top: 80px;
+}
+
+.card-front-pic {
+    height: 175px;
+    width:125px;
+    border-radius: 15px;
 }
